@@ -1,6 +1,5 @@
-import spacy, os, atexit, random
+import spacy, os, atexit, random, pymongo
 from flask import  Flask, jsonify, request
-from flask_pymongo import PyMongo
 from spacy.gold import GoldParse
 from spacy.language import EntityRecognizer
 

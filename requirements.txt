@@ -1,0 +1,4 @@
+spacy
+pymongo
+flask
+atexit
